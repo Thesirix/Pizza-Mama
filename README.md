@@ -1,41 +1,41 @@
 # Pizza Mama
 
-Pizza Mama est une application web développée avec le framework Django. Elle permet de gérer des recettes de pizzas à travers une API connectée à une base de données SQL. L'application est également reliée dynamiquement à un site web hébergé sur [PythonAnywhere](https://thesirix.pythonanywhere.com/), affichant les mêmes données que l'API.
+Pizza Mama is a web application developed with the Django framework. It allows managing pizza recipes through an API connected to a SQL database. The application is also dynamically linked to a website hosted on [PythonAnywhere](https://thesirix.pythonanywhere.com/), displaying the same data as the API.
 
-## Fonctionnalités
+## Features
 
-- Affichage des recettes de pizzas depuis la base de données SQL.
-- Connexion dynamique avec le site web pour afficher les mêmes données.
-- Possibilité pour l'administrateur de :
-  - Éditer les prix des pizzas.
-  - Mettre à jour la disponibilité des pizzas.
-  - Modifier la liste des ingrédients des pizzas.
+- Display of pizza recipes from the SQL database.
+- Dynamic connection with the website to display the same data.
+- Possibility for the administrator to:
+  - Edit pizza prices.
+  - Update pizza availability.
+  - Modify the list of pizza ingredients.
 
-## Structure de l'Application
+## Application Structure
 
-L'application est structurée de la manière suivante :
+The application is structured as follows:
 
-1. **API** : Permet de récupérer les données des recettes de pizzas depuis la base de données SQL.
-2. **Site Web** : Hébergé sur [PythonAnywhere](https://thesirix.pythonanywhere.com/), il affiche les mêmes données que l'API de façon dynamique.
-3. **Interface Administrateur** : Permet à l'administrateur de gérer les pizzas disponibles, leurs prix et leurs ingrédients.
+1. **API**: Allows retrieving pizza recipe data from the SQL database.
+2. **Website**: Hosted on [PythonAnywhere](https://thesirix.pythonanywhere.com/), it displays the same data as the API dynamically.
+3. **Administrator Interface**: Allows the administrator to manage available pizzas, their prices, and their ingredients.
 
-## Technologies Utilisées
+## Technologies Used
 
-- Django : Framework web utilisé pour développer l'application.
-- Base de données SQL : Stockage des recettes de pizzas.
-- HTML/CSS : Utilisés pour développer l'interface web.
-- PythonAnywhere : Plateforme d'hébergement utilisée pour le déploiement du site web.
+- Django: Web framework used to develop the application.
+- SQL Database: Storage of pizza recipes.
+- HTML/CSS: Used to develop the web interface.
+- PythonAnywhere: Hosting platform used for website deployment.
 
 ## Installation
 
-1. Cloner le dépôt Git.
-2. Installer les dépendances Python.
-3. Lancer l'application.
+1. Clone the Git repository.
+2. Install Python dependencies.
+3. Launch the application.
 
-## Guide de l'Administrateur
+## Administrator Guide
 
-1. Modifier les prix des pizzas.
-2. Mettre à jour la disponibilité des pizzas.
-3. Modifier la liste des ingrédients des pizzas.
+1. Modify pizza prices.
+2. Update pizza availability.
+3. Modify the list of pizza ingredients.
 
 ![pizzaapp](images/pizzap.png)
